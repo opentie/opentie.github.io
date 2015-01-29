@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid #666;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -23,9 +23,18 @@
     }
 }
 
+.site-title-logo {
+    height: 4em;
+    margin-left: -0.4em;
+
+    &:hover {
+        opacity: .6;
+    }
+}
+
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 106px;
 
     .menu-icon {
         display: none;
@@ -235,6 +244,11 @@
     }
 }
 
+
+/**
+ * for index page
+ */
+
 .landing {
     text-align: center;
 
@@ -249,6 +263,12 @@
     .footer {
         a {
             margin: .4em;
+        }
+
+        .license {
+            img {
+                margin-bottom: 1em; // fix align
+            }
         }
     }
 }
