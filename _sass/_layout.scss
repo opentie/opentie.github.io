@@ -234,3 +234,21 @@
         }
     }
 }
+
+.landing {
+    text-align: center;
+
+    .description {
+        margin: 2em 0;
+
+        a {
+            color: #111;
+        }
+    }
+
+    .footer {
+        a {
+            margin: .4em;
+        }
+    }
+}

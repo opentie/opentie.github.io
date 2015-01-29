@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
+title: opentie について
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+opentie は、筑波大学学園祭実行委員会による [orange-tie](https://login.sohosai.tsukuba.ac.jp/) にインスパイアされた、学園祭実行委員会とその参加団体がスムーズに学園祭の準備をするためのアプリケーションです。すべてのコンポーネントは自由ソフトウェアとしてライセンスされています。
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+アプリケーションは、JSON API サーバである [opentie-app](https://github.com/opentie/opentie-app) とクライアントアプリケーションである [opentie-console](https://github.com/opentie/opentie-console) からなります。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+opentie-app の JSON API は、クライアントアプリケーションだけでなく、その他のアプリケーションのためのデータソースとしても活用することができます。
+
+開発は GitHub にて行われています。バグ報告や Pull Request などはそれぞれのレポジトリにお願いします。
